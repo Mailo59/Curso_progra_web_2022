@@ -1,0 +1,76 @@
+/*REFERENCIA CON LA PALABRA CLAVE DEL ELEMENTO */
+*{
+    margin: 0%;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#textoporid{
+    font-size: 15px;
+    color: red;
+}
+#labelazul{
+    font-size: 15px;
+    color: blue;
+}
+#labelrojo{
+    font-size: 15px;
+    color: red;
+}
+#labelverde{
+    font-size: 15px;
+    color: green;
+}
+#labelamarillo{
+    font-size: 15px;
+    color: yellow;
+}
+p[name= "tercerop"]{
+    font-size: 10px;
+}
+p[name ="cuartop"]{
+    font: 35px;
+    color: blueviolet;
+}
+p[name="quintop"]{
+    color: blueviolet;
+}
+p[name^="eta"]{
+    color: green;
+}
+/* ^ REFERENCIA PARA EL FINAL DE UN NAME*/
+
+
+.Texto:nth-child(1){
+    background-color: green;
+}
+.Texto:nth-child(2){
+    background-color: red;
+}
+.Texto:nth-child(3){
+    background-color: orange;
+}
+.Texto:nth-child(4){
+    background-color: blue;
+}
+.Texto:nth-child(5  ){
+    background-color: violet;
+}
+p:last-child{
+    font-weight: normal;
+    color: black;
+}
+
+:not(p.Texto){
+    margin: 0%;
+}
+
+ div > p.Texto{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+
+/*REFERENCIA POR EL ATRIBUTO ID */
+/*REFERENCIA POR EL ATRIBUTO CLASS */
