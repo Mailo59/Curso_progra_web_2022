@@ -5,36 +5,38 @@
         <meta name="Ejemplo" content="Documento de HTML">
         <meta name="Keyword" content="HTML5,CCS3">
         <title>Primera Pagina Web</title>
+        <link rel="stylesheet" href="css/init.css">
+        <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="css/style.css">
 
     </head>   
 
     <body> 
-        <header>
-            <h1>Este es el Header de la pagina web</h1>
+        <div id="divGeneral"> 
+        <header id="cabecera">
+            <h1 id="tituloprincipal">Este es el Header de la pagina web</h1>
+            <h2 id="subtitulo">subtitulo</h2>
         </header>
-        <nav>
+
+
+        <nav id="menu">
             <ul>
-                <li>Primera opción</li>
-                <li>Fotos</li>
-                <li>Videos</li>
-                <li>documentos</li>
-                <li>Contacto</li>
+                <li class="op">Principal</li>
+                <li class="op"><a href="fotos.html">Fotos</a></li>
+                <li class="op">Videos</li>
+                <li class="op">documentos</li>
+                <li class="op">Contacto</li>
             </ul>
         </nav>
 
-       <section>
-        <article>
+       <section id="principal">
+        <article class="articulo">
             <header>
                 <hgroup>
-                    <h1>permite agrupar etiquetas hgroup</h1>
+                    <h1 class="tituloheaderarticulo">permite agrupar etiquetas hgroup</h1>
                     <h2>este es un h2 dentro de un hgroup</h2>
-                    
                 </hgroup>
-                <h1>ARTICULO 1</h1>
-            </header>
-            <h2>Soy un articulo No.1</h2>
-            
+                          
             <figure>
                 <img src="https://tienda.uvg.edu.gt/attach/tiendas/Logo-vertical-verde_5a8b26cb76441.jpg" alt="IMAGEN DE UVG">
                 <figcaption>Esta es la imagen cargada por URL
@@ -42,35 +44,40 @@
                 </figcaption>
             </figure>
 
-            <footer><p>comentarios (0)</p>
+            <footer><p>Comentarios (0)</p>
             </footer>
         </article>
 
-        <article>
-            <header>
-                <h1>ARTICULO 2</h1>
-            </header>
-            <h2>Soy un articulo No.2</h2>
-            
-            <footer><p>comentarios (0)</p>
+
+
+        <article class="articulo">
+            <hgroup>
+                <h1 class="tituloheaderarticulo">permite agrupar etiquetas hgroup</h1>
+                <h2>este es un h2 dentro de un hgroup</h2>
+            </hgroup>
+            <footer><p>Comentarios (0)</p>
             </footer>
         </article>
 
-        <article>
-            <header>
-                <h1>ARTICULO 3</h1>
-            </header>
-            <h2>Soy un articulo No.3</h2>
+
+
+        <article class="articulo">
+            <hgroup>
+                    <h1 class="tituloheaderarticulo">permite agrupar etiquetas hgroup</h1>
+                    <h2>este es un h2 dentro de un hgroup</h2>
+
+                </hgroup>         
             <span><mark> Esta es la etiqueta Mark </mark><em>Y es <strong> MUY</strong> importante</em></span>
             <span><cite> Me gusto la pelicula de Avenger </cite></span>
             <address><a href="https://www.google.com/">Aqui hay un link</a></address>
-            <footer><p>comentarios (0)</p>
+           
+            <footer><p>Comentarios (0)</p>
             </footer>
         </article>
 
        </section>
        
-       <aside>
+       <aside id="sidebar">
         <blockquote>Mensaje de Nicolas Maduro</blockquote>
         <blockquote>Caramelo de chocolate</blockquote>
         <blockquote>Empapame así</blockquote>
@@ -78,9 +85,13 @@
 
        </aside>
 
-       <footer>
+       <footer id="pie">
         <small>El exceso de consumo de este producto causa serios daños para la salud</small> 
        </footer>
+   
     
+
     </body>
+</div>
+
 </html>
