@@ -26,27 +26,33 @@ h6{
 
 header, section, footer aside, nav, article, figure, figcaption, hgroup{
     display: block;
-    border: double black;
+   
 }
 
 body{
     text-align: center;
+    
+    background-image:url(https://i.pinimg.com/originals/1c/3b/9f/1c3b9f22bf68b82958d869383df85990.jpg) ;
 }
 
 /* DISEÑO DEL TEMPLATE */
 #divGeneral{
-    width: 980px;
+    width: 980px;   
     margin: 15px auto;
     text-align: left;
 }
 
 #cabecera{
-  background-color: aqua; 
+  background-color: rgb(39, 8, 111); 
   padding: 20px;
+  border-radius:15px ;
+}
+.tituloscabecera{
+    color: white;
 }
 #menu{
     background-color: rgb(227, 126, 48);
-    border-radius: 15px;
+    border-radius: 25px;
     
    }
    
@@ -58,16 +64,23 @@ body{
     color: white;
     display: block;
     
-    padding: 15px 61px;
+    padding: 15px 69px;
     text-decoration: none;
    }
 
    #menu li a:hover{
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: darkblue;
    }
 
 
+
+#imagen{
+   
+    max-width: 250px;
+    max-height: 250px;
+    
+}
 
 #principal{
     float:left;
@@ -85,5 +98,9 @@ body{
     clear: both;
     text-align: center;
     padding: 20px;
+    background-color: rgba(48, 8, 243, 0.436);
+    font: sans-serif 10px ;
+    color: beige;
     border-top: 2px solid silver ;
+    
 }
