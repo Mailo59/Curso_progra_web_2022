@@ -28,9 +28,17 @@ header, section, footer aside, nav, article, figure, figcaption, hgroup{
     display: block;
     
 }
+#tituloprincipal{
+    color: white;
+}
+#subtitulo{
+    color: white;
+}
 
 body{
     text-align: center;
+    background-image:url(https://res.cloudinary.com/uvggt/image/upload/f_auto/v1651784165/2022/Mayo/UVG%20Campus%20Sur/UVG-Campus-Sur-Portada.jpg);
+    background-size: contain;
 }
 
 /* DISEÑO DEL TEMPLATE */
@@ -41,11 +49,14 @@ body{
 }
 
 #cabecera{
-  background-color: aqua; 
+  background-color: rgb(103, 100, 100); 
   padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+ 
 }
 #menu{
-    background-color: rgb(227, 126, 48);
+    background-color: rgb(12, 101, 33);
     border-radius: 15px;
     
    }
@@ -62,7 +73,7 @@ body{
    #buscar input{
     width:  0px;
     height: 20px;
-    
+    background-color: rgb(19, 136, 19);
     padding: 0 15px;
     font-size: 12px;
     color: black;
@@ -71,14 +82,20 @@ body{
     border-radius: 30px;
    }
 .btn{
+   
     position: absolute;
-    top: -31px;
+    top: 0pxx;
     right: 0;
-    left: -23px;    
+    left: -7; 
+    bottom: 15px;
     
-    width: 45px;
-    height: 45px;
-    line-height: 50px;
+    
+    
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    line-height: 45px;
     text-align: center;
     color: rgb(5, 5, 4);
     font-size: 15px;
@@ -86,18 +103,22 @@ body{
    
     }
     #buscar:hover input{
-        width: 200px;
+        width: 150px;
         transition: .2s;
+        background-color: whitesmoke;
+        
 
     }
     #buscar input :focus{
-        width: 200px;
+        width: 150px;
+        background-color: whitesmoke;
     }
    
    #menu li a{
     color: white;
     display: block;
-    
+   
+    border-radius:  15px;
     padding: 15px 30px;
     text-decoration: none;
    }
@@ -105,10 +126,17 @@ body{
    #menu li a:hover{
     border-radius: 15px;
     transition: .2s;
-    background-color: darkblue;
+    background-color: rgb(0, 139, 25);
+   }
+   #contacto{
+    float: left;
+    
    }
 
-
+#imagenuvg{
+    max-width: 250px;
+    max-height: 250px;
+}
 
 #principal{
     float:left;
@@ -120,11 +148,12 @@ body{
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background-color: yellowgreen;   
+    background-color: rgb(188, 188, 188);   
 }
 #pie{
     clear: both;
     text-align: center;
     padding: 20px;
-    border-top: 2px solid silver ;
+    border-top: 7px double black ;
+    background-color: rgba(240, 248, 255, 0.67);
 }
