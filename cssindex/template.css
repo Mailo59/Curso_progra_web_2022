@@ -150,10 +150,16 @@ body{
     padding: 20px;
     background-color: rgb(188, 188, 188);   
 }
-#pie{
+
+small{
+    font-size: 14px;
+}
+
+#pie {
     clear: both;
     text-align: center;
     padding: 20px;
     border-top: 7px double black ;
     background-color: rgba(240, 248, 255, 0.67);
 }
+
