@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*JERARQUIA DE CABECERAS */
+h1{
+    font: bold 30px verdana,sans-serif;
+
+}
+h2{
+    font: bold 20px verdana, sans-serif;
+}
+h3{
+    font: bold 15px verdana, sans-serif;
+}
+h4{
+    font: bold 14px verdana, sans-serif;
+}
+h5{
+    font: bold 12px verdana, sans-serif;
+}
+h6{
+    font: bold 10px verdana, sans-serif;
+}
+/* FORMATO DE ELEMNTOS HTML 4 */
+
+header, section, footer aside, nav, article, figure, figcaption, hgroup{
+    display: block;
+   
+}
+
+body{
+    text-align: center;
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/677/085/non_2x/red-and-blue-abstract-light-background.jpg);
+
+}
+
+/* DISEÑO DEL TEMPLATE */
+#divGeneral{
+    width: 980px;   
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera{
+  background-image: url(https://media.istockphoto.com/vectors/website-header-or-banner-design-with-abstract-geometric-background-vector-id1147049831?b=1&k=6&m=1147049831&s=170667a&w=0&h=L1p9l1PtLvblLLsara5somPRvYJYwknC8w5TKIGfqv4=);
+  background-size: 950px 100px;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius:15px ;
+}
+
+#tituloprincipal{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.tituloheaderarticulo{
+    text-align: center;
+}
+.tituloheaderarticulobella{
+    text-align: center;
+    color: yellow;
+}
+.subtitlo1b{
+    text-align: center;
+    color: yellow;
+}
+
+.tituloscabecera{
+    color: rgb(1, 1, 1);
+}
+.tituloheaderarticuloblackp{
+    text-align: center;
+    color: white;
+    text-shadow: rgb(148, 18, 98);
+    text-decoration: underline rgb(255, 192, 231);
+}
+#menu{
+    background-color:darkblue;
+    border-radius: 20px;
+    
+   }
+   
+   #menu li {
+       display: inline-block;
+       
+   }
+   #menu li a{
+    color: white;
+    display: block;
+    
+    border-radius: 15px;
+    padding: 15px 55px;
+    text-decoration: none;
+   }
+
+   #menu li a:hover{
+    border-radius: 25px;
+    background-color: rgb(0, 178, 232);
+   }
+
+.imagenbella{
+    
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 350px;
+   max-height: 350px;
+   border: 10px groove red;
+   border-radius: 15%;
+}
+.imagenbp{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 350px;
+   max-height: 350px;
+   border: 10px groove rgb(165, 58, 128);
+   border-radius: 15%;
+}
+.audiobella{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+
+.imagen{
+    border: 5px dotted white;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 15%;
+    
+}
+
+audio{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    color-scheme: blue;
+}
+
+#principal{
+    float:left;
+    width: 650px;
+    margin: 20px;
+    color: white;
+}
+#sidebar{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(165, 12, 63, 0.821);   
+}
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.447);
+    font: sans-serif 10px ;
+    color: rgb(0, 0, 0);
+    border-top: 2px solid silver ;
+    
+}

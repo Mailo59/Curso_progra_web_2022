@@ -1,0 +1,46 @@
+.articulo{
+    background: rgba(134, 35, 142, 0.668);
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    
+}
+article footer{
+    text-align: right;
+    color: rgb(164, 0, 0);
+}
+
+figcaption{
+
+    font: italic 10px sans-serif;
+}
+.albumnes{
+    text-align: center;
+    font: italic 10px sans-serif;
+}
+
+#video{
+    width: 80%;
+    border-radius: 5%;
+    border: 5px groove blue;
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+}
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+p[name="parrafo"]{
+    font: sans-serif 15px;
+    color: rgb(255, 255, 255);
+}
+#axd{
+    color: blanchedalmond;
+}

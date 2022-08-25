@@ -1,0 +1,35 @@
+.articulo{
+    background: rgb(81, 93, 186);
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer{
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+figcaption{
+    font: italic 10px sans-serif;
+}
+
+div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+p[name="parrafo"]{
+    font: sans-serif 15px;
+    color: bisque;
+}
+#axd{
+    color: blanchedalmond;
+}
+.parrf{
+    text-decoration: underline;
+}
