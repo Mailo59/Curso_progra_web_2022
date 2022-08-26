@@ -110,7 +110,7 @@ body{
 .btn{
    
     position: absolute;
-    top: 0pxx;
+
     right: 0;
     left: -7; 
     bottom: 15px;
@@ -145,7 +145,7 @@ body{
     display: block;
    
     border-radius:  15px;
-    padding: 15px 30px;
+    padding: 15px 40px;
     text-decoration: none;
    }
 

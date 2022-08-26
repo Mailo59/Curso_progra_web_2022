@@ -104,13 +104,24 @@ body{
     border: 2px double black;
     
 }
+.fig{
+    text-align: center;
+}
+#imagen3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
 
 #principal{
-    float:left;
+    float:right;
     width: 650px;
     margin: 20px;
 }
 #sidebar{
+    border-radius: 10%;
     float: left;
     width: 220px;
     margin: 20px 0px;
@@ -119,12 +130,28 @@ body{
     background-color: rgb(145, 184, 53);   
 }
 #pie{
+    
     clear: both;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(160, 213, 52);
     font: sans-serif 10px ;
     color: beige;
     border-top: 2px solid silver ;
     
+}
+
+.contacto{
+    display: block;
+    margin-right: 50%;
+    margin-bottom: -50px;
+    
+}
+
+#redes{
+
+    display: block;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: auto;
 }
