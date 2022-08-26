@@ -41,13 +41,24 @@ body{
     margin: 15px auto;
     text-align: left;
 }
-
+.logo{
+    border: 3px groove white;
+    display: block;
+    margin-bottom:-10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    max-width: 125px;
+    max-height: 125px;
+}
 #cabecera{
-  background-color: rgb(39, 8, 111); 
+  background-color: rgba(39, 8, 111, 0.684); 
   padding: 20px;
   border-radius:15px ;
 }
 .tituloscabecera{
+    margin-left: 5%;
+    margin-top: -90px;
+    text-align: center;
     color: white;
 }
 #menu{
@@ -83,12 +94,14 @@ body{
 }
 
 #principal{
-    float:left;
+    float:right;
     width: 650px;
     margin: 20px;
 }
 #sidebar{
+    display: block;
     float: left;
+    border-radius: 10%;
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
@@ -105,3 +118,18 @@ body{
     border-top: 2px solid silver ;
     
 }
+.contacto{
+    margin-top: 20px;
+    display: block;
+    margin-right: 50%;
+   
+    margin-bottom: -40px;
+}
+#redes{
+    
+    display: block;
+    margin-left: 50%;
+    margin-top: -5px;
+    margin-bottom: auto;
+}
+

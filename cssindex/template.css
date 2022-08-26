@@ -30,14 +30,18 @@ header, section, footer aside, nav, article, figure, figcaption, hgroup{
 }
 #tituloprincipal{
     color: white;
+    font-size: 40px;
 }
 #subtitulo{
     color: white;
+    font-size: 25px;
 }
 
 body{
     text-align: center;
+    
     background-image:url(https://res.cloudinary.com/uvggt/image/upload/f_auto/v1651784165/2022/Mayo/UVG%20Campus%20Sur/UVG-Campus-Sur-Portada.jpg);
+   
     background-size: contain;
 }
 
@@ -48,12 +52,34 @@ body{
     text-align: left;
 }
 
+.logo{
+    display: block;
+    border: 3px groove white;
+    margin-bottom:-10px;
+    margin-left: 80px;
+    border-radius: 50%;
+    max-width: 125px;
+    max-height: 125px;
+    transition: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+}
+.logo:hover{
+    transform: rotateZ(360deg);
+}
 #cabecera{
-  background-color: rgb(103, 100, 100); 
+  background-color: rgba(132, 205, 153, 0.89); 
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 4px;
+  border-radius:15px ;
+}
+.tituloscabecera{
+    margin-left: -40px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    text-align: center;
  
+    color: white;
 }
 #menu{
     background-color: rgb(12, 101, 33);
@@ -73,7 +99,7 @@ body{
    #buscar input{
     width:  0px;
     height: 20px;
-    background-color: rgb(19, 136, 19);
+    background-color: rgb(66, 136, 19);
     padding: 0 15px;
     font-size: 12px;
     color: black;
@@ -139,16 +165,21 @@ body{
 }
 
 #principal{
-    float:left;
+    float:right;
     width: 650px;
     margin: 20px;
+
 }
+
+
 #sidebar{
+    border-radius: 10%;
+    display: block;
     float: left;
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background-color: rgb(188, 188, 188);   
+    background-color: rgba(4, 161, 54, 0.793);   
 }
 
 small{
@@ -156,10 +187,29 @@ small{
 }
 
 #pie {
+    display: block;
+    
     clear: both;
     text-align: center;
     padding: 20px;
     border-top: 7px double black ;
     background-color: rgba(240, 248, 255, 0.67);
+ 
 }
 
+
+
+.contacto{
+    display: block;
+    margin-right: 50%;
+    margin-bottom: -50px;
+    
+}
+
+#redes{
+
+    display: block;
+    margin-left: 50%;
+    margin-top: -20px;
+    margin-bottom: auto;
+}

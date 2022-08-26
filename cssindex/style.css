@@ -1,11 +1,17 @@
 .articulo{
-    
-    border: 3px groove grey;
-    border-radius: 5px;
+
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 15px;
-    background-color: rgb(199, 239, 197);
+    background: linear-gradient(120deg, rgb(3, 156, 26), rgba(5, 192, 2, 0.74), rgba(255, 255, 255, 0.652), rgb(0, 189, 107));  
+
 }
+.articulo:hover{
+    background: linear-gradient(120deg, rgb(3, 74, 156), rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.652), rgb(0, 35, 189));  
+
+}
+
+
 article footer{
     text-align: right;
     color: red;
@@ -34,4 +40,4 @@ div{
 .show{
     display: block;
 }
-
+    

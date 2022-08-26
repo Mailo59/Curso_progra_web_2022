@@ -1,6 +1,6 @@
 .articulo{
-    background: rgb(52, 29, 178);
-    border: 1px solid grey;
+    background: rgba(51, 29, 178, 0.685);
+    
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 15px;

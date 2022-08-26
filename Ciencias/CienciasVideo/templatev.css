@@ -42,12 +42,25 @@ body{
     text-align: left;
 }
 
+.logo{
+    display: block;
+    border: 3px groove white;
+    margin-bottom:-10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    max-width: 125px;
+    max-height: 125px;
+}
 #cabecera{
-  background-color: rgb(39, 8, 111); 
+  background-color: rgba(39, 8, 111, 0.684); 
   padding: 20px;
   border-radius:15px ;
 }
 .tituloscabecera{
+    margin-left: 5%;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    text-align: center;
     color: white;
 }
 #menu{
@@ -84,20 +97,22 @@ body{
 }
 
 #principal{
-    float:left;
+    float:right;
     width: 650px;
     margin: 20px;
 }
 
 #sidebar{
+    border-radius: 10%;
     float: left;
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
     color: white;
-    background-color: rgb(53, 66, 184);   
+    background-color: rgba(53, 66, 184, 0.793);   
 }
 #pie{
+    margin-top: 20px;
     clear: both;
     text-align: center;
     padding: 20px;
@@ -107,3 +122,18 @@ body{
     border-top: 2px solid silver ;
     
 }
+.contacto{
+    margin-top: 20px;
+    display: block;
+    margin-right: 50%;
+   
+    margin-bottom: -40px;
+}
+#redes{
+    
+    display: block;
+    margin-left: 50%;
+    margin-top: -5px;
+    margin-bottom: auto;
+}
+
