@@ -47,7 +47,7 @@ body{
 
 /* DISEÑO DEL TEMPLATE */
 #divGeneral{
-    width: 980px;
+    width: auto;
     margin: 15px auto;
     text-align: left;
 }
@@ -166,7 +166,7 @@ body{
 
 #principal{
     float:right;
-    width: 650px;
+    width: 1050px;
     margin: 20px;
 
 }
