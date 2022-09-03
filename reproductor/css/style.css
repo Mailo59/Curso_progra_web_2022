@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+header, section, footer, aside, nav, article, figcaption, figure, hgroup{
+    display: block;
+}
+
+#Reproductor{
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px;
+    background: #99999999;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+
+nav{
+    margin: 5px 0px;
+}
+
+#botones{
+    float: left;
+    width: 100px;
+    height: 20px;
+}
+
+#barra{
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
+}
+
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    background: rgba(0, gree0, blu150, .2);
+}
+

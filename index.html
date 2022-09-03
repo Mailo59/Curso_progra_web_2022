@@ -34,6 +34,7 @@
                 <li><a href="Musica/musica.html">Musica</a></li>
                 <li><a href="Tecno/tecnologia.html">Tecnologia</a></li>
                 <li><a href="Videoj/videojuegos.html">Videojuegos</a></li>
+                <li> <a href="reproductor/index.html">Reproductor</a></li>
                 
                 <li id="buscar"><input type="text" placeholder="Buscar" required>
                     <div class="btn">
@@ -126,10 +127,28 @@
             <br><br>
             <address><a href="http://elearningmasters.galileo.edu/2018/05/04/html5-en-cursos-virtuales/#:~:text=HTML5%20permite%20crear%20cursos%20de,y%20cuando%20no%20te%20conectes.">Info sobre HTML</a></address>
            
-            <footer><p>Comentarios (0)</p>
+            <footer><p onmouseover='alerta("no olvides de dejar tu comentario")' onmouseout='alertasalida("Gracias por tu comentario")'>(comentario) </p>
             </footer>
         </article>
 
+        <script>
+            function mostraralerta(){
+                alert("Se hizo click en el titulo desde una funcion");
+            }
+            function mostrarMensaje(){
+                alert("Hizo Click");
+            }
+            function hacerClick(){
+                document.getElementById("parrafoConClick").onclick=mostrarMensaje();
+            }
+            window.onload=hacerClick();
+            function alerta(){
+                alert("No te olvides de dejar un comentario");
+            }
+            function alertasalida(){
+                alert("Gracias por tu comentario");
+            }
+        </script>
        </section>
        
        <aside id="sidebar">
