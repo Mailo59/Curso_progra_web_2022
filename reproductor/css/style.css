@@ -6,15 +6,16 @@ header, section, footer, aside, nav, article, figcaption, figure, hgroup{
     display: block;
 }
 
-#Reproductor{
+#reproductor{
     width: 720px;
     margin: 20px auto;
-    padding: 5px;
+    padding: 25px;
     background: #99999999;
     border: 1px solid #666666;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+    
 
 }
 
@@ -22,27 +23,44 @@ header, section, footer, aside, nav, article, figcaption, figure, hgroup{
 nav{
     margin: 5px 0px;
 }
-
+#medio{
+    border: 1px solid white;
+    padding: -10px;
+    
+}
 #botones{
-    float: left;
-    width: 100px;
+    float: center;
+    margin-left: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: -30px;
+}
+
+#botones2{
+    float: right;
+    
+    margin-top: -50px;
+    width: 500px;
     height: 20px;
 }
 
 #barra{
     position: relative;
-    float: left;
+    margin-left: 55px;
     width: 600px;
     height: 16px;
-    padding: 2px;
+    padding: 0px;
     border: 1px solid #CCCCCC;
     background: #EEEEEE;
 }
 
 #progreso{
     position: absolute;
+    margin-left: 20px;
     width: 0px;
     height: 16px;
-    background: rgba(0, gree0, blu150, .2);
+    padding: 0px;
+    background: blue;
+    border-radius: 3px;
 }
-

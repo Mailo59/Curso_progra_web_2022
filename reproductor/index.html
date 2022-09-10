@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproductor </title>
+    <title>REPRODUCTOR</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/aplication.js"></script>
-
+    <script src="https://kit.fontawesome.com/f8612a333a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <section id="Reproductor">
-        <video id="medio" width="720" height="400" src="media/Skin con poderes.mp4"></video>
+    <section id="reproductor">
+<video id="medio" width="720" height="500">
+    <source src="media/Skin con poderes.mp4">
+</video>
 
-    </section>
-    <nav>
+<nav>
         <div id="botones">
-            <button type="button" id="reproducir">Reproducir</button>
+            <button id="retroceder"><i class="fa-solid fa-backward"></i></button>
+            <button type="button" id="reproducir"><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i> </button>
+            <button id="adelantar"><i class="fa-solid fa-forward"></i></button>
+
         </div>
 
         <div id="barra">
-            <div id="progreso">  </div>
+            <div id="progreso"> </div>
+          
+        </div>
+
+        <div id="botones2">
+            <button id="expandir"><i class="fa-solid fa-expand"></i> </button>
         </div>
         
         <div stlye="clear: both; ">
 
         </div>
     </nav>
-    
+    </section>
 </body>
 </html>
