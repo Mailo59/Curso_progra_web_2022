@@ -2,7 +2,7 @@
 
 class loginModel {
     
-
+    
     function autenticar($user, $password){
         $connClass = new Tools();
         $conexion = $connClass->conectar();
@@ -13,8 +13,9 @@ class loginModel {
         FROM 
         users 
         WHERE 
-        UPPER(usuario)= UPPER('$users') 
-        and password ='$pass' ";
+        UPPER(user)=  UPPER('$user') 
+        and password ='$password' ";
+        
     $resultado = mysqli_query($conexion, $sql);
     $connClass->desconectar($conexion);
 

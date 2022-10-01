@@ -1,6 +1,7 @@
 <?php
 
-class Tools{  
+class Tools { 
+     
     function conectar(){
         $conexion = mysqli_connect(SERVER, USERDB, PASSDB, DATABASE);
         if($conexion){
