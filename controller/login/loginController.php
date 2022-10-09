@@ -1,8 +1,9 @@
 <?php
 ob_start();
 session_start();
+echo "Paso 1";
 include_once("../../model/functions.php");
-
+echo "Paso 2";
 $loginModel= new loginModel();
 
 

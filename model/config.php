@@ -7,7 +7,7 @@ define("DATABASE", "Sistema");
 
 
 define("RAIZ_APLICACION",dirname(__FILE__));
-define("DEBUG","false");
+define("DEBUG","true");
 
 ?>
 
