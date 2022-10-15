@@ -16,10 +16,10 @@ class Tools {
     function desconectar($conexion){
         $close = mysqli_close($conexion);
 
-        if(!close){
+        if(!$close){
             echo "Ocurrio un error al cerrar la conexion debido a: <br> ", mysqli_connect_error();
         }
-        
+        return $close;        
     }
 }
 ?>
